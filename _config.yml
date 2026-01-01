@@ -23,6 +23,8 @@ url: "" # the base hostname & protocol for your site
 cover: "/assets/header_image.png"
 logo: "/assets/logo.png"
 
+timezone: Europe/Berlin
+
 # Build settings
 markdown: kramdown
 inter_post_navigation: false
