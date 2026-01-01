@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: Sensacional
+subtitle: "oluido non priue lo que es memorable"
+email: ""
+name: icanogar
 description: >
   A simple yet classy theme for your Jekyll website or blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/header_image.png"
 logo: "/assets/logo.png"
 
 # Build settings
@@ -60,6 +60,9 @@ descriptions:
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
+  - cat: meta
+    desc: "Lo que tiene que ver con este sitio."
+
 # Social icons and sharing options
 #
 # Social settings are used in two places:
@@ -76,40 +79,40 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
+  - name: Bluesky
+    icon: bluesky
+    username: icanogar.bsky.social
+    url: https://bsky.app/profile/icanogar.bsky.social
+    desc: Mira lo que pongo en Bluesky
+    share: false
 
   - name: Facebook
     icon: facebook
     username: thebencentra
     url: ""
     desc: Friend me on Facebook
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
-    desc: Fork me on GitHub
-    share: false
+    username: icanogar
+    url: https://github.com/icanogar
+    desc: Mira lo que hago en GitHub
+    share: true
 
   - name: LinkedIn
     icon: linkedin
     username: Ben Centra
     url: https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
-    share: true
+    share: false
 
   - name: Google+
     icon: google-plus
     username: ""
     url: ""
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
