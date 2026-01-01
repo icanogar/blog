@@ -41,10 +41,15 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archive'
+    - years  # Opcional
+  layouts:
+    category: archive
+    tag: archive
+    year: archive
   permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+    tag: /tag/:name/
+    category: /category/:name/
+    year: /:year/
 
 # Disqus comments
 # disqus_shortname: bencentra
