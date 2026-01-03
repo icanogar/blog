@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensacional</title>
+    <description>A simple yet classy theme for your Jekyll website or blog.
+</description>
+    <link>/blog/</link>
+    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Jan 2026 18:32:02 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 18:32:02 +0100</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Felipe, el amiguito de Mafalda</title>
+        <description>&lt;p&gt;Debería estar haciendo la tarea de Sintaxis (movimiento primario y secundario en finés) en vez de estar escribiendo aquí. Me identifico mucho con Felipe, el amiguito de Mafalda:&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets//posts/felipe_agobiado.jpg&quot;...</description>
+        <pubDate>Sat, 03 Jan 2026 09:50:52 +0100</pubDate>
+        <link>/blog/libros/2026/01/03/felipe_amigo_mafalda.html</link>
+        <guid isPermaLink="true">/blog/libros/2026/01/03/felipe_amigo_mafalda.html</guid>
+        
+        
+        <category>libros</category>
+        
+      </item>
+    
+      <item>
+        <title>Los cuencos del zodíaco</title>
+        <description>&lt;p&gt;Cuando empecé a reunir cosas para la nueva casa (me faltaba todo) me dio por la porcelana de la DDR, en particular por un estilo que se llama de muchas...</description>
+        <pubDate>Fri, 02 Jan 2026 21:53:52 +0100</pubDate>
+        <link>/blog/objetos/2026/01/02/los_cuencos_del_zodi-aco.html</link>
+        <guid isPermaLink="true">/blog/objetos/2026/01/02/los_cuencos_del_zodi-aco.html</guid>
+        
+        
+        <category>objetos</category>
+        
+      </item>
+    
+      <item>
+        <title>Florence B. Price</title>
+        <description>&lt;p&gt;No he seguido esta mañana el Concierto de Año Nuevo de Viena porque Eurovisión y porque clasismo (paso de comentar sobre el comentarista de RTVE, quizá patrocinado por Campofrío), aunque...</description>
+        <pubDate>Thu, 01 Jan 2026 21:53:52 +0100</pubDate>
+        <link>/blog/m%C3%BAsica/2026/01/01/florence_b-price.html</link>
+        <guid isPermaLink="true">/blog/m%C3%BAsica/2026/01/01/florence_b-price.html</guid>
+        
+        
+        <category>música</category>
+        
+      </item>
+    
+      <item>
+        <title>Te doy cinco minutos, desahógate!</title>
+        <description>&lt;p&gt;Hay muchas cosas que veo, escucho, siento, pienso, escribo… y luego se me olvidan. Seguro que a ti también te pasa. Empiezo este blog, con el año 2026, para que...</description>
+        <pubDate>Thu, 01 Jan 2026 19:53:52 +0100</pubDate>
+        <link>/blog/meta/2026/01/01/te-doy-cinco-minutos.html</link>
+        <guid isPermaLink="true">/blog/meta/2026/01/01/te-doy-cinco-minutos.html</guid>
+        
+        
+        <category>meta</category>
+        
+      </item>
+    
+  </channel>
+</rss>
