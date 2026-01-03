@@ -91,7 +91,7 @@ social:
     username: icanogar.bsky.social
     url: https://bsky.app/profile/icanogar.bsky.social
     desc: Mira lo que pongo en Bluesky
-    share: false
+    share: true
 
   - name: Facebook
     icon: facebook
@@ -106,13 +106,6 @@ social:
     url: https://github.com/icanogar
     desc: Mira lo que hago en GitHub
     share: true
-
-  - name: LinkedIn
-    icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
-    desc: Connect with me on LinkedIn
-    share: false
 
   - name: Google+
     icon: google-plus
@@ -140,7 +133,7 @@ social:
     username: ""
     url: ""
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -189,7 +182,7 @@ social:
     username: ""
     url: ""
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
@@ -202,12 +195,12 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
+    fb_image: "/assets/logo.gif"
     fb_image_width: 612
     fb_image_height: 605
     fb_image_type: "image/png"
 
-    twitter_image: "/assets/logo.png"
+    twitter_image: "/assets/logo.gif"
 
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
