@@ -4,17 +4,18 @@ plugins:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-target-blank # Lo añado yo para que los links se abran en nueva pestaña
 
 exclude:
   - "/vendor/"
 
 # Site settings
-title: Sensacional
-subtitle: "oluido non priue lo que es memorable"
+title: Los entusiasmos reunidos
+subtitle: un registro del asombro cotidiano
 email: ""
 name: icanogar
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  Un sitio estático en Jekyll con comentarios de Talkyard
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -27,7 +28,7 @@ timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
-inter_post_navigation: false
+inter_post_navigation: true
 highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
@@ -52,6 +53,13 @@ jekyll-archives:
     tag: /tag/:name/
     category: /category/:name/
     year: /:year/
+
+target_blank:
+  # Enlaces externos (por defecto ya es true)
+  external: true
+  
+  # Enlaces internos (normalmente no quieres)
+  internal: false
 
 # Disqus comments
 # disqus_shortname: bencentra
