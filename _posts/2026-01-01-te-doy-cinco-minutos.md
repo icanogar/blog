@@ -16,6 +16,6 @@ Escribo esto ~~en la Wasserstadt de Spandau~~ en Markdown, que es una herramient
 
 * Esto prentende ser una exposición de objetos y sensaciones. Un catálogo objetivo y sensacional. El hombre, accidental y lamentablemente yo, como pequeño uni-universo (perdóname).
 * Como reza el título de esta entrada, y amenazó con ser el del mero blog, las entradas no se deberían escribir en más de cinco minutos. Total, la vida es eterna.
-* Documentarlo todo: no hay otro modo. Debo ser meticuloso y exhaustivo con aquello a lo que me refiero. Demasiadas veces pasa que luego no te acuerdas de las cosas. Voy a escribir como si me dirigiese a una persona muy tonta, a lo mejor extranjera, y que no comparta mi entramado de referencias. No creo que lo consiga pero sí que lo intente.
+* Documentarlo todo: no hay otro modo. Debo ser meticuloso y exhaustivo con aquello a lo que me refiero. Demasiadas veces pasa que luego lo relees y no te acuerdas de las cosas. Voy a escribir como si me dirigiese a una persona muy tonta, a lo mejor extranjera, y que no comparta mi entramado de referencias. No creo que lo consiga pero sí que lo intente.
 
 Y, sin más, gracias por estar ahí (si es que lo estás)... y [poyéjali]({{ site.baseurl }}/assets/posts/Gagarin-Poyekhali.ogg).
