@@ -3,7 +3,7 @@ layout: post
 title:  "Gustav Wunderwald"
 date:   2026-01-04
 author: "***"
-categories: "artes plásticas"
+categories: ["artes plásticas"]
 ---
 
 La urgencia de mi anonimato es tanta que solo llevo cuatro días de blog y ya sabrás, probablemente, dónde vivo y a qué me dedico. Por supuesto, ese «solo» va sin tilde, como todos. El caso es que de cuando en cuando me salta [este tuit de The Public Domain Rewiev](https://bsky.app/profile/publicdomainrev.bsky.social/post/3m5ykc7iyto2d) sobre la obra de Gustav Wunderwald (si fuera Wunderwand podríamos cantarle eso de _but after all you're my..._). En el enlace hablan de su obra mejor de lo que yo podría hacerlo.
