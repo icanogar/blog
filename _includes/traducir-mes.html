@@ -1,0 +1,18 @@
+{% comment %} _includes/traducir-mes.html {% endcomment %}
+{% comment %} Este include traduce el nombre de un mes del ingles al espanol. {% endcomment %}
+{% comment %} Espera una variable llamada 'nombre_mes_ingles' y devuelve 'nombre_mes_espanol'. {% endcomment %}
+
+{% case include.mes %}
+  {% when "January" %}{% assign nombre_mes_espanol = "enero" %}
+  {% when "February" %}{% assign nombre_mes_espanol = "febrero" %}
+  {% when "March" %}{% assign nombre_mes_espanol = "marzo" %}
+  {% when "April" %}{% assign nombre_mes_espanol = "abril" %}
+  {% when "May" %}{% assign nombre_mes_espanol = "mayo" %}
+  {% when "June" %}{% assign nombre_mes_espanol = "junio" %}
+  {% when "July" %}{% assign nombre_mes_espanol = "julio" %}
+  {% when "August" %}{% assign nombre_mes_espanol = "agosto" %}
+  {% when "September" %}{% assign nombre_mes_espanol = "septiembre" %}
+  {% when "October" %}{% assign nombre_mes_espanol = "octubre" %}
+  {% when "November" %}{% assign nombre_mes_espanol = "noviembre" %}
+  {% when "December" %}{% assign nombre_mes_espanol = "diciembre" %}
+{% endcase %}

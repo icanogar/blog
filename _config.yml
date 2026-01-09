@@ -75,9 +75,6 @@ descriptions:
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
-  - cat: meta
-    desc: "Lo que tiene que ver con este sitio."
-
 # Social icons and sharing options
 #
 # Social settings are used in two places:

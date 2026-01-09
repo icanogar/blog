@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Posts"
+title: "Categórico"
 permalink: /posts/
 main_nav: true
 ---
@@ -19,7 +19,12 @@ main_nav: true
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
-      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
+      {% comment %} --- NUEVO: Traduccion de la fecha --- {% endcomment %}
+      {% assign nombre_mes_ingles = post.date | date: "%B" %}
+      {% comment %} Traducimos el nombre del mes al espanol {% endcomment %}
+      {% include traducir-mes.html mes=nombre_mes_ingles %}
+      <span class="post-date">- {{ post.date | date: "%-d" }} de {{ nombre_mes_espanol }} de {{ post.date | date: "%Y" }}</span>
+      {% comment %} --- FIN del bloque nuevo --- {% endcomment %}
     </li>
   {% endfor %}
   </ul>
