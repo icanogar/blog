@@ -36,11 +36,16 @@ $red:	#c0392b;				// Pomegranate
 $gray: #7f8c8d;				// Asbestos
 // Even more colors
 $bc-red: #bc0000;
+// Mis colores
+$siena: #e1b241;        // Fondos
+$mi-rojo: #d42c45;     // Títulos y enlaces
+$mi-gris: #675566;     // Textos menores (no cliclables)
+$dark-red: #260d25;     // Texto de las entradas (no cliclable)
 
 // Font Colors
 $base-background-color: #fff;
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $dark-red;
+$action-color: $mi-rojo;
 $highlight-color: tint($action-color, 33%);
 
 // Border

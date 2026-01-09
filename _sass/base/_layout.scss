@@ -37,7 +37,7 @@ code {
 blockquote {
 	color: $mi-gris;
 	font-style: italic;
-	border-left: 2px solid $light-gray;
+	border-left: 2px solid $light-$mi-rojo;
 	margin-left: 0;
 	padding-left: 3em;
 }
@@ -47,7 +47,7 @@ pre code.hljs {
 }
 
 .page-divider {
-	$divider-color: $light-gray;
+	$divider-color: $light-$mi-rojo;
   display: block;
   width: 50%;
   margin-left: auto;
