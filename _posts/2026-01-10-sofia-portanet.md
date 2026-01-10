@@ -18,4 +18,4 @@ Reconozco que el segundo disco no (me) acaba de cuajar por... cincuentaporcienti
 
 ![]({{ site.baseurl }}/assets/posts/portanet2.png)
 
-Pues chica, desde el mucho cariño que te tengo, qué quieres que te diga. Si _fuiste piedra, perdiste tu centro_ y la industria no apuesta a full por ti y te acaba _tirando al mar_, tendrás que volver al underground _para volver a encontrar tu centro_. Ah, y ni se te ocurra presentarte a Eurovisión por Alemania, por mucho que te paguen. En el Benidorm Fest, sin embargo, tienes las puertas abiertas.
+Pues chica, desde el mucho cariño que te tengo, qué quieres que te diga. Si _fuiste piedra, perdiste tu centro_ y la industria no apuesta a full por ti y te acaba _tirando al mar_, tendrás que volver al underground _para volver a encontrar tu centro_. Ah, y aunque estés llamada a ser la Vicky Leandros o la Nana Mouskouri de tu generación, ni se te ocurra presentarte a Eurovisión por Alemania, por mucho que te paguen. En el Benidorm Fest, sin embargo, tienes las puertas abiertas.
