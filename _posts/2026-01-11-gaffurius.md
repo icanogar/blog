@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Musas, modos y esferas"
-date:   2026-01-11 10:53:52
+date:   2026-01-10 10:53:52
 author: 
-categories: artes-plásticas
+categories: imagen música
 ---
 
 Este grabado de [Franchino Gaffurio](https://www.musicologie.org/Biographies/g/gafurio_franchino.html) (1451-1522) relaciona los modos musicales con las musas y las esferas. Es de su _Theoria Musicae_ de 1492, y pronto adornará mis paredes también.

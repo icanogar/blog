@@ -3,7 +3,7 @@ layout: post
 title:  "Felipe, el amiguito de Mafalda"
 date:   2026-01-03 08:50:52
 author: "***"
-categories: libros
+categories: texto imagen
 ---
 
 Debería estar haciendo la tarea de Sintaxis (movimiento primario y secundario en finés) en vez de estar escribiendo aquí. Me identifico mucho con Felipe, el amiguito de Mafalda:

@@ -3,7 +3,7 @@ layout: post
 title:  "Planilandia"
 date:   2026-01-06 14:53:52
 author: "***"
-categories: libros
+categories: texto
 ---
 
 Hoy voy a rescatar, tal cual, una de las entradas de los artefactos anteriores. No es trampa! Es un experimento. O triangulación de datos que le llaman: ver una misma cosa con los ojos de hace diez.
