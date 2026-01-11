@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Musas, modos y esferas"
-date:   2026-01-10 10:53:52
+date:   2026-01-11 10:53:52
 author: 
 categories: imagen música
 ---
