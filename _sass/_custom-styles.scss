@@ -36,3 +36,50 @@ body {
 .site-footer .wrapper {
   background-color: transparent !important;
 }
+
+
+// GALERIA HORIZONTAL REUTILIZABLE
+// Clase base: pone las imágenes en fila
+.galeria-horizontal {
+  display: flex;
+  flex-wrap: wrap; // Por si hay muchas imágenes, que pasen a otra línea
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0;
+
+  // Fallback para navegadores antiguos (sin soporte para gap en flexbox)
+  > * {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  img {
+    height: auto;      // Mantiene proporción
+    display: block;    // Elimina espacio fantasma bajo imágenes inline
+  }
+}
+
+// MODIFICADORES: controlan cuántas imágenes hay por fila
+// Para 2 imágenes (cada una ocupa ~50% - espacio del gap)
+.galeria-2 img {
+  flex: 1;
+  max-width: calc(50% - 0.5rem); // 50% menos la mitad del gap
+}
+
+// Para 3 imágenes (cada una ocupa ~33.333% - espacio del gap)
+.galeria-3 img {
+  flex: 1;
+  max-width: calc(33.333% - 0.67rem); // 33.333% menos 2/3 del gap
+}
+
+// Para 4 imágenes (cada una ocupa ~25% - espacio del gap)
+.galeria-4 img {
+  flex: 1;
+  max-width: calc(25% - 0.75rem); // 25% menos 3/4 del gap
+}
+
+// Para 5+ imágenes (se distribuyen el espacio, pero si no caben, bajan de línea)
+// Con .galeria-5 no definimos max-width, se usa solo flex: 1
