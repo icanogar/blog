@@ -2,3 +2,37 @@
 body {
     background-color: #e1b241 !important;
 }
+
+// EFECTO PARALLAX PARA LA PORTADA
+
+.site-header-container {
+  // 1. Hacemos que el contenedor sea relativamente bajo y oculte el desbordamiento
+  height: 60vh; // Ocupa el 60% de la altura de la pantalla (viewport height)
+  min-height: 400px; // Altura mínima para pantallas muy pequeñas
+  overflow: hidden; // Esencial: recorta la imagen cuando se desplace
+  position: relative; // Necesario para posicionar el scrim encima
+
+  // 2. La imagen de fondo: fija y cubriendo todo
+  background-size: 100% auto !important; // Ancho completo, alto natural (puede recortarse arriba/abajo)
+  background-attachment: fixed !important; // La magia: se queda fija al hacer scroll
+}
+
+// 5. Ajuste para el contenido principal y el pie de página
+.wrapper {
+  position: relative;
+  // ¡IMPORTANTE! Usa TU color de fondo personalizado, no la variable genérica:
+  background-color: $siena; // o el valor HEX directo, ej: #e1b241
+}
+
+// CORRECCION PARA EL FOOTER
+// 1. El contenedor principal del footer tiene el color de acento
+.site-footer {
+  background-color: $highlight-color !important;
+  color: findColorInvert($highlight-color);
+  padding: 1rem 0 !important; // <-- AJUSTA ESTE VALOR (0.75rem, 1rem, etc.)
+}
+
+// 2. El 'wrapper' interno solo quita su fondo
+.site-footer .wrapper {
+  background-color: transparent !important;
+}
