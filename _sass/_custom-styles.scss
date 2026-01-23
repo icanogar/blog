@@ -83,3 +83,31 @@ body {
 
 // Para 5+ imágenes (se distribuyen el espacio, pero si no caben, bajan de línea)
 // Con .galeria-5 no definimos max-width, se usa solo flex: 1
+
+// Ajustes de responsividad
+// para móviles
+
+@media (max-width: 768px) {
+  .site-header-container {
+    height: 40vh;
+    min-height: 300px;
+  }
+}
+
+// CORRECCION PARA EL FOOTER - RESPONSIVO
+.site-footer {
+  background-color: $highlight-color !important;
+  color: findColorInvert($highlight-color);
+  padding: 1rem 0 !important; // Sólo arriba/abajo
+
+  // Añade padding lateral en móviles
+  @media (max-width: 768px) {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+.site-footer .wrapper {
+  background-color: transparent !important;
+  /* El wrapper ya debería tener su propio padding/max-width para centrar el texto */
+}

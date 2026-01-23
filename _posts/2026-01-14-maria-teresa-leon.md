@@ -6,7 +6,7 @@ author:
 categories: texto
 ---
 
-![](/assets/posts/mariateresaleon.jpg)
+![]({{ site.baseurl }}/assets/posts/mariateresaleon.jpg)
 
 Otro rescate en Alfa Centauro! Te doy contexto:
 
