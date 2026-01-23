@@ -10,11 +10,11 @@ Labi Siffre se ha hecho viral últimamente, no tengo idea de cómo ni me importa
 
 {% include youtube.html url="https://www.youtube.com/watch?v=1zxZAXxwTOE" %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vmezIIrFQmY?si=T_7Tes_OmgmTSHJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html url="https://www.youtube.com/watch?v=vmezIIrFQmY" %}
 
 Además de un artesano de la composición de canciones, Labi Siffre es un personajazo. No sabía yo [que Herbert lo ponderase tantísimo](https://www.clashmusic.com/features/matthew-herbert-on-labi-siffre/), ni el chascarrillo de [que tuvo dos maridos simultáneamente](https://www.theguardian.com/music/2022/jan/31/i-had-the-perfect-life-then-both-my-husbands-died-singer-labi-siffre-on-love-loss-and-happiness). Quizá se haya minimizado su relevancia y su talento por su condición? Bueno, que sea su música la que resplandezca y trascienda.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m7D58mDOGrc?si=hPsVGNYBEvJjehIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html url="https://www.youtube.com/watch?v=m7D58mDOGrc" %}
 
 **Bonus 1:** aún en territorio ska, [esta canción](https://youtu.be/N_49AzErO48?si=CuPOLtXHE1ZBxB9f) no acabó teniendo la versión que pudo. Éramos ambiciosos!
 
