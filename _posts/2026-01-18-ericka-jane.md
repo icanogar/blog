@@ -12,7 +12,7 @@ Así me enfrento a dos canciones del Dansk Grand Prix 2026. Por un lado, su repr
 
 Pero hay otro tema en la preselección danesa que me ha llamado mucho más la atención. Se trata de _Death of Me_, de Ericka Jane. Dime cuando la hayas escuchado.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WJcFpt9tqJM?si=_HLqOucz-rctavPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html url="https://www.youtube.com/watch?v=WJcFpt9tqJM" %}
 
 Sí: las estrofas desvalijan impunemente el _Padam Padam_ de Kylie (o sea, [cien años de perdón](https://www.youtube.com/watch?v=oFBWPcaMKeo)) y en el estribillo equidista entre ABBA y el schlager (si no son la misma cosa). Pero precisamente ser irreverente, frívola y divertida es su mejor baza. Habrá que ver que no se caiga en el directo, aunque me daría un poco igual porque lo que pase a nivel competitivo ni me va ni me viene.
 

@@ -8,7 +8,7 @@ categories: música
 
 Labi Siffre se ha hecho viral últimamente, no tengo idea de cómo ni me importa, y [en jenesaispop lo celebran con una selección de canciones imprescindibles](https://jenesaispop.com/2026/01/13/512038/labi-siffre-bless-the-telephone/). Una de ellas es _It Must Be Love_, que seguramente conoces por la versión de Madness. Te pongo las dos. La versión fue incluso parte de un anuncio de gas natural, porque estar calentito en casa debe ser lo más parecido a estar enamorado. Imagino que los derechos les costarían una millonada.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1zxZAXxwTOE?si=NI5lGIpQtA0YC3aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html url="https://www.youtube.com/watch?v=1zxZAXxwTOE" %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vmezIIrFQmY?si=T_7Tes_OmgmTSHJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

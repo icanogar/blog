@@ -1,0 +1,26 @@
+{% comment %} 
+  _includes/youtube.html
+  Uso: {% include youtube.html url="URL_COMPLETA" %} 
+{% endcomment %}
+
+{% assign url = include.url %}
+{% comment %} Extrae el ID del video de varias formas de URL de YouTube {% endcomment %}
+{% if url contains 'youtube.com/watch' %}
+  {% assign video_id = url | split: 'v=' | last | split: '&' | first %}
+{% elsif url contains 'youtu.be/' %}
+  {% assign video_id = url | split: '/' | last %}
+{% elsif url contains 'youtube.com/embed/' %}
+  {% assign video_id = url | split: '/' | last %}
+{% else %}
+  {% assign video_id = url %} {% comment %} Si ya es solo el ID {% endcomment %}
+{% endif %}
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/{{ video_id }}" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+  </iframe>
+</div>
