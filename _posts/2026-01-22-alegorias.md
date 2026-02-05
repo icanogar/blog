@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Alegorías del Prado"
+title:  "Las alegorías del Prado"
 date:   2026-01-22 10:53:52
 author: 
 categories: lugares
