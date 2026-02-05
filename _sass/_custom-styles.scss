@@ -94,6 +94,27 @@ body {
     min-height: 200px;
     background-size: cover !important;
     background-position: center center !important;
+    .scrim {
+      // 3. Reducir el padding del velo oscuro (puede estar empujando el texto)
+      padding: 0.5rem !important;
+      
+      .site-header {
+        // 4. Ajustes directos al texto
+        .title {
+          font-size: 1.8rem !important; // Reducir tamaño de fuente (ajusta)
+          line-height: 1.2 !important;  // Reducir interlineado
+          margin-bottom: 0.25rem !important; // Reducir margen inferior
+          // Evitar que las palabras se partan:
+          word-break: normal !important; // o 'keep-all'
+          overflow-wrap: normal !important;
+        }
+        .subtitle {
+          font-size: 1rem !important;   // Reducir subtítulo si existe
+          line-height: 1.2 !important;
+          margin-top: 0.25rem !important;
+        }
+      }
+    }
   }
 }
 

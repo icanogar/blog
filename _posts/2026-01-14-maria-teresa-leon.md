@@ -6,8 +6,6 @@ author:
 categories: texto
 ---
 
-![]({{ site.baseurl }}/assets/posts/mariateresaleon.jpg)
-
 Otro rescate en Alfa Centauro! Te doy contexto:
 
 - es una de las entradas más recientes de su artefacto
@@ -15,6 +13,8 @@ Otro rescate en Alfa Centauro! Te doy contexto:
 - escrita escasos tres meses antes de mi saulesca caída del jumento, del giro copernicano, de como quieras llamarlo
 
 - voy a censurar algunas menciones directas, otras oscuras, y algunas pinceladas escabrosas que no comulgan con el espíritu de _Los entusiasmos_: que tu morbosa fantasía obre el resto
+
+![]({{ site.baseurl }}/assets/posts/mariateresaleon.jpg)
 
 ### María Teresa León / Volver por sus fueros (1 de febrero, 2021)
 
