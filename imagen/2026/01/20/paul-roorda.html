@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Paul Roorda</title>
+  <meta name="description" content="Muchos de los que aterrizaron en Berlín cuando llegué yo eran artistas, así que casi todos los fines de semana teníamos que si el vernisage de la exposición ...">
+  
+  <meta name="author" content="icanogar">
+  <meta name="copyright" content="&copy; icanogar 2026">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/blog/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/blog/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/blog/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Script para inyectar datos de posts aleatorios (añadido) -->
+  <script type="text/javascript">
+  // Inyectamos la lista de posts desde Jekyll al objeto global 'window'
+  window.todosLosPosts = [
+    
+    {
+      title: "Del Rastro (i): Arrano Beltza",
+      url: "/blog/m%C3%BAsica/2026/01/25/arrano-beltza.html"
+    },
+    
+    {
+      title: "Quiskataqui",
+      url: "/blog/texto/2026/01/24/quiskataqui.html"
+    },
+    
+    {
+      title: "El Jamón, en Lavapiés",
+      url: "/blog/manduca/2026/01/23/el-jamon-lavapies.html"
+    },
+    
+    {
+      title: "Las alegorías del Prado",
+      url: "/blog/lugares/2026/01/22/alegorias.html"
+    },
+    
+    {
+      title: "Anchoas",
+      url: "/blog/manduca/2026/01/21/anchoas.html"
+    },
+    
+    {
+      title: "Paul Roorda",
+      url: "/blog/imagen/2026/01/20/paul-roorda.html"
+    },
+    
+    {
+      title: "Jeg kan mærke jorden danse, de Dugfrisk",
+      url: "/blog/m%C3%BAsica/2026/01/19/dugfrisk.html"
+    },
+    
+    {
+      title: "Death of Me, de Ericka Jane",
+      url: "/blog/m%C3%BAsica/2026/01/18/ericka-jane.html"
+    },
+    
+    {
+      title: "Hay calles que es mejor que las calles",
+      url: "/blog/lugares/2026/01/17/callejero.html"
+    },
+    
+    {
+      title: "El Mar de la Irresponsabilidad, de 31 minutos",
+      url: "/blog/m%C3%BAsica/2026/01/16/mar-de-la-irresponsabilidad.html"
+    },
+    
+    {
+      title: "Viejos blogs y heterodoxos",
+      url: "/blog/m%C3%BAsica/2026/01/15/pepe-rey.html"
+    },
+    
+    {
+      title: "Todo lo que nunca sabré de María Teresa León",
+      url: "/blog/texto/2026/01/14/maria-teresa-leon.html"
+    },
+    
+    {
+      title: "It Must Be Love, de Labi Siffre",
+      url: "/blog/m%C3%BAsica/2026/01/13/labi_siffre.html"
+    },
+    
+    {
+      title: "Los murales de Tlaxcala",
+      url: "/blog/imagen/lugares/2026/01/12/tlaxcala.html"
+    },
+    
+    {
+      title: "Musas, modos y esferas",
+      url: "/blog/imagen/m%C3%BAsica/2026/01/11/gaffurius.html"
+    },
+    
+    {
+      title: "Sofía Portanet",
+      url: "/blog/m%C3%BAsica/2026/01/10/sofia-portanet.html"
+    },
+    
+    {
+      title: "El Garaje Hermético",
+      url: "/blog/lugares/2026/01/09/el-garaje-herm%C3%A9tico.html"
+    },
+    
+    {
+      title: "La moto, de Leo Maslíah",
+      url: "/blog/m%C3%BAsica/2026/01/08/la-moto-masl%C3%ADah.html"
+    },
+    
+    {
+      title: "Crema de coliflor y pera",
+      url: "/blog/manduca/2026/01/07/crema-de-coliflor.html"
+    },
+    
+    {
+      title: "Planilandia",
+      url: "/blog/texto/2026/01/06/planilandia.html"
+    },
+    
+    {
+      title: "Canna indica, o achira",
+      url: "/blog/flora/2026/01/05/canna_indica.html"
+    },
+    
+    {
+      title: "Gustav Wunderwald",
+      url: "/blog/imagen/2026/01/04/gustav_wunderwald.html"
+    },
+    
+    {
+      title: "Felipe, el amiguito de Mafalda",
+      url: "/blog/texto/imagen/2026/01/03/felipe_amigo_mafalda.html"
+    },
+    
+    {
+      title: "Los cuencos del zodíaco",
+      url: "/blog/objetos/2026/01/02/los_cuencos_del_zodi-aco.html"
+    },
+    
+    {
+      title: "Florence B. Price",
+      url: "/blog/m%C3%BAsica/2026/01/01/florence_b-price.html"
+    },
+    
+    {
+      title: "Te doy cinco minutos, desahógate!",
+      url: "/blog/meta/2026/01/01/te-doy-cinco-minutos.html"
+    }
+    
+  ];
+  </script>
+  <!-- Fin del script añadido -->
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/blog/css/main.css">
+  <link rel="canonical" href="/blog/imagen/2026/01/20/paul-roorda.html">
+	<link rel="alternate" type="application/rss+xml" title="Los entusiasmos reunidos" href="/blog/feed.xml" />
+
+  <!-- Carga del script para el enlace Aleatorio (añadido) -->
+	<script src="/blog/assets/js/aleatorio.js" defer></script>
+
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/blog/" class="logo">
+      
+      <img src="/blog/assets/logo.gif" alt="Los entusiasmos reunidos">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+
+	
+	<li class="nav-link">
+<a href="/blog/about/">Qué es esto</a>
+	
+
+	
+
+	
+
+	
+
+	
+	</li>
+<li class="nav-link">
+<a href="/blog/meses/">Histórico</a>
+	
+
+	
+	</li>
+<li class="nav-link">
+<a href="/blog/posts/">Categórico</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+</li>
+<li class="nav-link"><a href="/blog/aleatorio/" id="enlace-aleatorio">Aleatorio</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container ">
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Paul Roorda</h1>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">
+  
+  
+  
+
+
+
+
+  20 de enero de 2026
+</div>
+  <div class="post-categories">
+  en 
+    
+    <a href="/blog/category/imagen">imagen</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>Muchos de los que aterrizaron en Berlín cuando llegué yo eran artistas, así que casi todos los fines de semana teníamos que si el vernisage de la exposición de Pepita, el finisage de la de Juanito y cosas por el estilo. Ahora no sé cómo estará el patio, aparte de que casi ninguno de los de entonces sigue por aquí (o en activo/a). El caso es que dos de ellos trabajaban en una residencia de artistas sita en una villa en Kreuzberg, cerca del canal. No sé bien la historia, pero (guglea) estaba y está gestionada por La Memoria de <a href="https://chemaalvargonzalez.com/la-memoria/" target="_blank" rel="noopener noreferrer">Chema Alvargonzález, un artista español que estuvo afincado en Berlín</a>. Y cada equis, los artistas residentes abrían sus talleres y se ponían a disposición del público para mostrar y contextualizar sus obras. Así tuve la suerte de conocer al canadiense <a href="https://www.paulroorda.com/" target="_blank" rel="noopener noreferrer">Paul Roorda</a> y ver lo que estaba haciendo por entonces.</p>
+
+<p><img src="/blog/assets/posts/roorda1.jpg" alt=""></p>
+
+<p>Lo que estaba haciendo por entonces eran bodegones con cosas encontradas, escogidas y manipuladas. Me lo puedo imaginar, sus sentidos siempre alerta y su cabeza analítica pero imparable, intentando disimular su entusiasmo en cualquier mercadillo. ¿No nos pasa acaso a todos, aunque no seamos artistas? ¿Ah, que a vosotros no os pasa? Me estáis vacilando, me resulta increíble.</p>
+
+<p><img src="/blog/assets/posts/roorda2.jpg" alt=""></p>
+
+<p><em>(Alguien ha dicho Boltanski? Puf, esa historia también habría que contarla…)</em></p>
+
+<p>Paul Roorda tenía incluso una calavera humana, y una historia al respecto. Me parece haberla visto en otra de las series publicadas en su página web (o quizá tenga más de una, lo que complicaría las cosas! Podrá venderse, o simplemente exponerse, una pieza de arte que contiene una calavera humana?). Han pasado 12 años: ahora, por lo que he visto, tiene mucha obra gráfica y <a href="https://www.paulroorda.com/#/adorro/" target="_blank" rel="noopener noreferrer">un alter ego que interactúa con los chats generativos</a>, la cual vertiente sí, es socialmente relevante (y él la ejecuta con conocimiento y profundidad), pero en lo personal es lo que menos me interesa. A mí denme basura y daguerrotipos!</p>
+
+<p><img src="/blog/assets/posts/roorda3.jpg" alt=""></p>
+
+<p>Sabes, y si no te lo cuento, pero muy de pasada, que por aquel entonces yo también me contagié del virus de la pretensión artística. Mi punto de partida era, por supuesto, la palabra. De ahí se pasaba a un discurso estructurado métrica y estróficamente; porque (y no me hartaré de decirlo) la observancia de la tradición te regala i) un kit de expectativas y ii) la posibilidad de transgredirlo. Una vez explorada la dimensión temporal, vendría el salto a su materialización, o llamémoslo así su puesta en escena, que es lo que me daba más miedo por la falta de técnica y de experiencia. El mensaje me daba bastante más igual porque ya había muchas personas ocupándose de los mensajes intensa o exclusivamente: mi misión era la forma, tan vejada de la mano de Dios. Y, por supuesto otra vez, se trataría de una práctica artística lo más alejada posible del sobreanálisis y la exégesis dirigida: todo mero juego y entusiasmo. Un poco como lo que hago o pretendo hacer aquí! Pero sobre mi obra imaginaria ya habrá tiempo de volver.</p>
+
+<p><img src="/blog/assets/posts/roorda4.png" alt=""></p>
+
+<p>Y es que en el museo centro de arte de dentro de mi cabeza, Paul Roorda comparte sala con Jack Balas, Kurt von Bley, el dadá de Raoul Hausmann (que no se te pase la expo!), <a href="/blog/imagen/2026/01/04/gustav_wunderwald.html">la objetividad de mentirijillas de Gustav Wunderwald</a> (ves? lo ves?), Jean Tinguély y la chica de la exposición lineal en la sala de Unter den Linden, que no recuerdo su nombre, ni de la chica ni de la sala. Y, siempre, Joan Brossa.</p>
+
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/blog/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+	<section class="post-navigation">
+		<span class="prev-post">
+			
+				<a href="/blog/m%C3%BAsica/2026/01/19/dugfrisk.html">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="page-number">Jeg kan mærke jorden danse, de Dugfrisk</span>
+				</a>
+			
+		</span>
+		<span class="next-post">
+			
+				<a href="/blog/manduca/2026/01/21/anchoas.html">
+					<span class="page-number">Anchoas</span>
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			
+		</span>
+	</section>
+
+
+
+
+
+<script>talkyardServerUrl='https://site-tejdebryt1.talkyard.net';</script>
+<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+<noscript>Please enable Javascript to view comments.</noscript>
+<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Los comentarios se gestionan con 
+<a href="https://www.talkyard.io" target="_blank" rel="noopener noreferrer">Talkyard</a>.</p>
+</div>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Los entusiasmos reunidos</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Estructura del sitio</strong></p>
+      <ul class="pages">
+				
+	
+
+	
+	<li class="nav-link">
+<a href="/blog/about/">Qué es esto</a>
+	
+
+	
+
+	
+
+	
+
+	
+	</li>
+<li class="nav-link">
+<a href="/blog/meses/">Histórico</a>
+	
+
+	
+	</li>
+<li class="nav-link">
+<a href="/blog/posts/">Categórico</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+</li>
+<li class="nav-link"><a href="/blog/aleatorio/" id="enlace-aleatorio">Aleatorio</a></li>
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contacto</strong></p>
+      <ul class="social-media-list">
+        <!-- Scripts <li>
+        <a href="mailto:">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username"></span>
+          </a>
+        </li> -->
+
+        
+          
+          <li>
+            <a href="https://bsky.app/profile/icanogar.bsky.social" title="Mira lo que pongo en Bluesky" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-bluesky"></i>
+              <span class="username">icanogar.bsky.social</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/icanogar" title="Mira lo que hago en GitHub" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-github"></i>
+              <span class="username">icanogar</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/blog/feed.xml">via RSS</a></strong></p>
+      <p class="text">un registro del asombro cotidiano
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
